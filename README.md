@@ -8,3 +8,9 @@ I really like GitHub, it is a community with a good environment. Thank you very 
 
 # 🛠I am using Tools&Systems
 ![image](https://img.shields.io/badge/Windows-C/C++-blue)
+![image](https://img.shields.io/badge/Linux-C/C++-blue)
+![image](https://img.shields.io/badge/Linux-ssh)
+![image](https://img.shields.io/badge/Windows-IDA_Pro-blue)
+![image](https://img.shields.io/badge/Raspberry_Pi-4B-blue)
+![image](https://img.shields.io/badge/C#-blue)
+
