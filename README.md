@@ -12,5 +12,7 @@ I really like GitHub, it is a community with a good environment. Thank you very 
 ![image](https://img.shields.io/badge/Linux-ssh)
 ![image](https://img.shields.io/badge/Windows-IDA_Pro-blue)
 ![image](https://img.shields.io/badge/Raspberry_Pi-4B-blue)
-![image](https://img.shields.io/badge/C#-blue)
-
+![image](https://img.shields.io/badge/Windows-Devcpp-blue)
+![image](https://img.shields.io/badge/Windows-git-blue)
+![image](https://img.shields.io/badge/Linux-git-blue)
+![image](https://img.shields.io/badge/Linux-vim-blue)
