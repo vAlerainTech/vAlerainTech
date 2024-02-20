@@ -16,3 +16,6 @@ I really like GitHub, it is a community with a good environment. Thank you very 
 ![image](https://img.shields.io/badge/Windows-git-blue)
 ![image](https://img.shields.io/badge/Linux-git-blue)
 ![image](https://img.shields.io/badge/Linux-vim-blue)
+![image](https://img.shields.io/badge/Linux-Sqlmap-blue)
+![image](https://img.shields.io/badge/Linux-Msf-blue)
+![image](https://img.shields.io/badge/Windows-blue)
