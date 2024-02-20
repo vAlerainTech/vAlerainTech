@@ -27,4 +27,4 @@ I really like GitHub, it is a community with a good environment. Thank you very 
 ![image](https://img.shields.io/badge/Linux-kernelcare-blue)
 
 # 📈Github warehouse
-<img align="center" src="https://github-readme-stats.vercel.app/api/<CARD_TYPE>/?username=<WhiteFoxLinux>&theme=<WhiteFoxLinux>" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/<https://github.com/WhiteFoxLinux/RikeXdiskShell>/?username=<WhiteFoxLinux>&theme=<WhiteFoxLinux>" />
