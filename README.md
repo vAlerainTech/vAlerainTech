@@ -45,9 +45,9 @@ I really like GitHub, it is a community with a good environment. Thank you very 
 
 <a href="https://star-history.com/#WhiteFoxLinux/RikeXdiskShell&Timeline">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=maboloshi/github-chinese&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=maboloshi/github-chinese&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=maboloshi/github-chinese&type=Timeline" width="75%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=WhiteFoxLinux/RikeXdiskShell&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=WhiteFoxLinux/RikeXdiskShell&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=WhiteFoxLinux/RikeXdiskShell&type=Timeline" width="75%" />
   </picture>
 </a>
 
