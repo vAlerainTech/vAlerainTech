@@ -43,6 +43,14 @@ I really like GitHub, it is a community with a good environment. Thank you very 
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=WhiteFoxLinux&repo=vAlerianSword-InternetProgramAnalysist&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>   
 
+<a href="https://star-history.com/#WhiteFoxLinux/RikeXdiskShell&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=maboloshi/github-chinese&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=maboloshi/github-chinese&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=maboloshi/github-chinese&type=Timeline" width="75%" />
+  </picture>
+</a>
+
 # 🔍My contact information
 
 You can contact me through QQ, Twitter, or email
