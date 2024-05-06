@@ -48,3 +48,7 @@ QQ:3506561279
 E-mail:3506561279@qq.com
 
 My Twitter：@GitvAlerain
+
+<p align="center">
+     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
