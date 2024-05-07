@@ -52,9 +52,9 @@ E-mail2:valerain-ark@outlook.com
 E-mail3:gitvalerain@gmail.com
 
 
-My X：@GitvAlerain
+My X:@GitvAlerain
 
-My youtube：![@GitvAlerain](https://www.youtube.com/channel/UCjFFQNdqoh9u6Lj9I1n2I3g)
+My youtube:@GitvAlerain
 
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
