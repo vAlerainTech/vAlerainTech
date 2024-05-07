@@ -46,8 +46,11 @@ You can contact me through QQ, Twitter, or email
 QQ:3506561279
 
 E-mail:3506561279@qq.com
+E-mail2:valerain-ark@outlook.com
+E-mail3:gitvalerain@gmail.com
 
-My Twitter：@GitvAlerain
+My X：@GitvAlerain
+My youtube：![@GitvAlerain](https://www.youtube.com/channel/UCjFFQNdqoh9u6Lj9I1n2I3g)
 
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
