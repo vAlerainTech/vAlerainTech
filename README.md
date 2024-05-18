@@ -56,6 +56,10 @@ My X:@GitvAlerain
 
 My youtube:@GitvAlerain
 
+# 😎Sponsored me
+
+爱发电: afdian.net/a/valerain
+
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
