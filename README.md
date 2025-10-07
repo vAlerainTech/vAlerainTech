@@ -1,3 +1,38 @@
+# I'm RYUGA | 龙牙
+
+> **磨砺思想之牙，洞穿复杂之壁。**
+
+---
+
+### 🐉 我的道场
+
+在这里，代码是我的利刃，逻辑是我的铠甲。
+
+*   **🖥️ 全栈开发者**：游走于前端的光影与后端的深渊。
+*   **🏆 算法挑战者**：享受在 OJ 战场上与难题搏杀的快感。
+*   **⚙️ 工具锻造师**：热衷于创造能提升效率的利器。
+*   **📖 永恒学徒**：在技术的海洋里，我永远是一名探索者。
+
+### 🗡️ 我的武器库
+
+| 领域 | 熟练技能 |
+| :--- | :--- |
+| **屠龙之语** | `C++` `Python` `Golang` `TypeScript` |
+| **神兵利器** | `React` `Vue` `Node.js` `Docker` `K8s` |
+| **内功心法** | 数据结构、设计模式、系统架构 |
+
+### 🏆 我的战利品墙
+
+# 📈Github warehouse
+<a href="https://github.com/vAlerainTech/">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vAlerainTech&hide=python,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+</a>
+<a href="https://github.com/vAlerainTech/vAlerainTech">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vAlerainTech&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
+</a>
+
+*Break the limit, like a dragon's fang.*
+
 # 📜About Me
 I am a student from Shanghai who has been studying computer science for 6 years. I have participated in the Blue Bridge Cup, local school competitions, and 3 national level competitions, as well as approximately 7 provincial level competitions.
 
@@ -27,14 +62,6 @@ I really like GitHub, it is a community with a good environment. Thank you very 
 ![image](https://img.shields.io/badge/Linux-sysctlconf-blue)
 ![image](https://img.shields.io/badge/Linux-grub_customizer-blue)
 ![image](https://img.shields.io/badge/Linux-kernelcare-blue)
-
-# 📈Github warehouse
-<a href="https://github.com/vAlerainTech/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vAlerainTech&hide=python,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a>
-<a href="https://github.com/vAlerainTech/vAlerainTech">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vAlerainTech&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
-</a>
 
 [![vAlerainTech urrent streak](https://streak-stats.demolab.com/?user=vAlerainTech&count_private=true&theme=blue-green&title_color=ffffff)](#)
 
