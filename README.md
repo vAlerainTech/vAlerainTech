@@ -1,92 +1,235 @@
-# I'm valerain
+> An oier
 
-> **这个人很懒，什么也没留下**
+我的账号
+-
+- [ATCODER](https://atcoder.jp/users/valerain)
+- [Codeforces](https://codeforces.com/profile/_Ryuga_Pro)
 
----
+著名比赛历年真题 CSP-J/S USACO 铜/金 省选 NOIP NOI CTT WC IOI
+-
+[著名比赛历年真题 CSP/J USACO 铜](https://www.luogu.com.cn/training/914825)
 
-### 🐉 
+[著名比赛历年真题 CSP-S USACO 金](https://www.luogu.com.cn/training/914849)
 
-在这里，代码是我的利刃，逻辑是我的铠甲。
+[著名比赛历年真题 省选 NOIP](https://www.luogu.com.cn/training/914862)
 
-*   **🖥️ 全栈开发者**：游走于前端的光影与后端的深渊。
-*   **🏆 算法挑战者**：享受在 OJ 战场上与难题搏杀的快感。
-*   **⚙️ 工具锻造师**：热衷于创造能提升效率的利器。
-*   **📖 永恒学徒**：在技术的海洋里，我永远是一名探索者。
+[著名比赛历年真题 NOI CTT](https://www.luogu.com.cn/training/914889)
 
-### 🗡️ 我的武器库
+[著名比赛历年真题 WC IOI](https://www.luogu.com.cn/training/914898)
 
-| 领域 | 熟练技能 |
-| :--- | :--- |
-| **屠龙之语** | `C++` `Python` `Golang` `TypeScript` |
-| **神兵利器** | `React` `Vue` `Node.js` `Docker` `K8s` |
-| **内功心法** | 数据结构、设计模式、系统架构 |
+### 人生大事
+$2025/11/27$ 红橙黄绿蓝紫黑 200 祭 [P9973 [THUPC 2024 初赛] 你说得对，但是 AIGC](https://www.luogu.com.cn/problem/P9973)
 
-### 🏆 我的战利品墙
+### 有趣的网站
+[OI教练模拟器](https://qoj.ac/files/OItrainer-main/start.html)
 
-# 📈Github warehouse
-<a href="https://github.com/vAlerainTech/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vAlerainTech&hide=python,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a>
-<a href="https://github.com/vAlerainTech/vAlerainTech">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vAlerainTech&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
-</a>
+快读模版
+```cpp
+namespace FastIO{
+	const int Size=1<<21;
+	char ibuf[Size],obuf[Size],*p1=ibuf,*p2=ibuf,*p3=obuf;
+	#define getchar() (p1==p2&&(p2=(p1=ibuf)+fread(ibuf,1,Size,stdin),p1==p2)?EOF:*p1++)
+	#define putchar(x) (p3-obuf<Size?(*p3++=(x)):(fwrite(obuf,1,p3-obuf,stdout),p3=obuf,*p3++=(x)))
+	inline void flush(){if(p3>obuf) fwrite(obuf,1,p3-obuf,stdout),p3=obuf;}
+	template<class T>
+	T read(T&x){
+		x=0;bool f=false;char ch=getchar();
+		while(!isdigit(ch)) f|=!(ch^'-'),ch=getchar();
+		while(isdigit(ch)) x=(x<<1)+(x<<3)+(ch&0xF),ch=getchar();
+		x=(f?-x:x);return x;
+	}template<class T>
+	int reads(T*s){
+		char ch=getchar();int len=0;
+		while(ch==' '||ch=='\n'||ch=='\r') ch=getchar();
+		while(ch!=' '&&ch!='\n'&&ch!=EOF&&ch!='\r') s[len++]=ch,ch=getchar();
+		s[len]='\0';return len;
+	}template<class T>
+	T readd(T&x){
+		x=0;bool f=false;char ch=getchar();
+		while(!isdigit(ch)) f|=!(ch^'-'),ch=getchar();
+		while(isdigit(ch)) x=x*10+(ch&0xF),ch=getchar();
+		if(ch=='.'){ch=getchar();T d=1;while(isdigit(ch)) d*=0.1,x+=d*(ch&0xF),ch=getchar();}
+		x=(f?-x:x);return x;
+	}template<class T>
+	void write(T x,char ch=' '){
+		if(x<0) putchar('-'),x=-x;
+		char tmp[41];int cnt=0;
+		while(x>9) tmp[cnt++]=x%10+'0',x/=10;tmp[cnt++]=x+'0';
+		while(cnt) putchar(tmp[--cnt]);putchar(ch);
+	}template<class T>
+	void writes(T x,int l=0,int r=-1){
+		if(~r){for(int i=l;i<=r;i++) putchar(x[i]);}
+		else{for(int i=l;x[i];i++) putchar(x[i]);}
+	}template<class T>
+	void writed(T x,int p=6,char ch=' '){
+		if(x<0) putchar('-'),x=-x;
+		T d=0.5;for(int i=0;i<p;i++) d*=0.1;x+=d;
+		i128 g=(i128)(x);p?write(g,'.'):write(g,ch);
+		if(p){T f=x-g;for(int i=0,d;i<p;i++) f*=10,d=(int)(f),putchar(d+'0'),f-=d;putchar(ch);}
+	}
+}
+using namespace FastIO;
+```
+记得加`flush();`
 
-*Break the limit, like a dragon's fang.*
+一些常见的类型
+```cpp
+using ll = long long;
+using ull = unsigned long long;
+using uint = unsigned int;
+using ld = long double;
+using cd = complex<double>;
+```
+一些常见宏
+```cpp
+#define i128  __int128
+#define fir first
+#define sec second
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define ls(x) (x << 1)
+#define rs(x) (x << 1 | 1)
+#define lowbit(x) (x & -x)
+#define AC return 0
+```
+一些常量
+```cpp
+const int dx[] = {-1, 1, 0, 0};
+const int dy[] = {0, 0, -1, 1};
+const int dx8[] = {-1, 1, 0, 0, -1, -1, 1, 1};
+const int dy8[] = {0, 0, -1, 1, -1, 1, -1, 1};
+const int MOD1 = 1e9 + 7;
+const int MOD = 998244353;
+const double PI = acos(-1);
+```
+一些函数
+```cpp
+ll qpow(ll a,ll b,ll mod=MOD){ll res=1;while(b){if(b&1)res=res*a%mod;a=a*a%mod;b>>=1;}return res;}
 
-# 📜About Me
-I am a student from Shanghai who has been studying computer science for 6 years. I have participated in the Blue Bridge Cup, local school competitions, and 3 national level competitions, as well as approximately 7 provincial level competitions.
+```
+```cpp
+ll qmul(ll a,ll b,ll mod=MOD){ll res=0;while(b){if(b&1)res=(res+a)%mod;a=(a+a)%mod;b>>=1;}return res;}
 
-The languages I have learned include C/C++, Python, C #, Lua, Java, and more.
+```
+```cpp
+ll range_sum(const vector<ll>&pre,int l,int r){return pre[r+1]-pre[l];}
 
-# 🧬My announcement
-I really like GitHub, it is a community with a good environment. Thank you very much for your support!
+```
+```cpp
+vector<int>linear_sieve(int n){vector<int>primes;vector<bool>is_prime(n+1,true);for(int i=2;i<=n;i++){if(is_prime[i])primes.push_back(i);for(int p:primes){if(i*p>n)break;is_prime[i*p]=false;if(i%p==0)break;}}return primes;}
 
-# 🛠I am using Tools&Systems
-[![github](https://img.shields.io/badge/dynamic/json?label=GitHub&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DvAlerainTech&labelColor=282c34&color=009f8f&logo=github&longCache=true)](https://github.com/vAlerainTech)
-[![bilibili](https://img.shields.io/badge/dynamic/json?color=00a1d6&labelColor=282c34&label=BiliBili&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dbilibili%26queryKey%3D3546558465313713&logo=Bilibili&logoColor=ffffff&longCache=true)](https://space.bilibili.com/525087824)
-![image](https://img.shields.io/badge/Windows-C/C++-blue)
-![image](https://img.shields.io/badge/Linux-C/C++-blue)
-![image](https://img.shields.io/badge/Linux-ssh)
-![image](https://img.shields.io/badge/Windows-IDA_Pro-blue)
-![image](https://img.shields.io/badge/Raspberry_Pi-4B-blue)
-![image](https://img.shields.io/badge/Windows-Devcpp-blue)
-![image](https://img.shields.io/badge/Windows-git-blue)
-![image](https://img.shields.io/badge/Linux-git-blue)
-![image](https://img.shields.io/badge/Linux-vim-blue)
-![image](https://img.shields.io/badge/Linux-Sqlmap-blue)
-![image](https://img.shields.io/badge/Linux-Msf-blue)
-![image](https://img.shields.io/badge/Windows-blue)
-![image](https://img.shields.io/badge/Raspberry_Pi-4B-blue)
-![image](https://img.shields.io/badge/Linux-sysctl-blue)
-![image](https://img.shields.io/badge/CentOS-tuned-blue)
-![image](https://img.shields.io/badge/Linux-sysctlconf-blue)
-![image](https://img.shields.io/badge/Linux-grub_customizer-blue)
-![image](https://img.shields.io/badge/Linux-kernelcare-blue)
+```
+很厉害的排序
+```cpp
+void counting_sort(vector<int>&arr){if(arr.empty())return;int max_val=*max_element(arr.begin(),arr.end());int min_val=*min_element(arr.begin(),arr.end());long long range=(long long)max_val-min_val+1;if(range>10000000){sort(arr.begin(),arr.end());return;}if(range*sizeof(int)>256*1024*1024){sort(arr.begin(),arr.end());return;}vector<int>count(range,0);vector<int>output(arr.size());for(int x:arr){count[x-min_val]++;}for(int i=1;i<range;i++){count[i]+=count[i-1];}for(int i=arr.size()-1;i>=0;i--){int pos=arr[i]-min_val;output[count[pos]-1]=arr[i];count[pos]--;}arr=output;}
 
-[![vAlerainTech urrent streak](https://streak-stats.demolab.com/?user=vAlerainTech&count_private=true&theme=blue-green&title_color=ffffff)](#)
+```
+```cpp
+void LL_counting_sort(vector<long long>&arr){if(arr.empty())return;long long max_val=*max_element(arr.begin(),arr.end());long long min_val=*min_element(arr.begin(),arr.end());long long range=max_val-min_val+1;if(range>10000000){sort(arr.begin(),arr.end());return;}if(range*sizeof(long long)>256*1024*1024){sort(arr.begin(),arr.end());return;}vector<long long>count(range,0);vector<long long>output(arr.size());for(long long x:arr){count[x-min_val]++;}for(long long i=1;i<range;i++){count[i]+=count[i-1];}for(long long i=arr.size()-1;i>=0;i--){long long pos=arr[i]-min_val;output[count[pos]-1]=arr[i];count[pos]--;}arr=output;}
 
+```
 
-# 🔍My contact information
+最后火车头
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+using uint = unsigned int;
+using ld = long double;
+using cd = complex<double>;
+#define i128  __int128
+#define fir first
+#define sec second
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define ls(x) (x << 1)
+#define rs(x) (x << 1 | 1)
+#define lowbit(x) (x & -x)
+#define AC return 0
+const int dx[] = {-1, 1, 0, 0};
+const int dy[] = {0, 0, -1, 1};
+const int dx8[] = {-1, 1, 0, 0, -1, -1, 1, 1};
+const int dy8[] = {0, 0, -1, 1, -1, 1, -1, 1};
+const int MOD1 = 1e9 + 7;
+const int MOD = 998244353;
+const double PI = acos(-1);
+namespace FastIO{
+	const int Size=1<<21;
+	char ibuf[Size],obuf[Size],*p1=ibuf,*p2=ibuf,*p3=obuf;
+	#define getchar() (p1==p2&&(p2=(p1=ibuf)+fread(ibuf,1,Size,stdin),p1==p2)?EOF:*p1++)
+	#define putchar(x) (p3-obuf<Size?(*p3++=(x)):(fwrite(obuf,1,p3-obuf,stdout),p3=obuf,*p3++=(x)))
+	inline void flush(){if(p3>obuf) fwrite(obuf,1,p3-obuf,stdout),p3=obuf;}
+	template<class T>
+	T read(T&x){
+		x=0;bool f=false;char ch=getchar();
+		while(!isdigit(ch)) f|=!(ch^'-'),ch=getchar();
+		while(isdigit(ch)) x=(x<<1)+(x<<3)+(ch&0xF),ch=getchar();
+		x=(f?-x:x);return x;
+	}template<class T>
+	int reads(T*s){
+		char ch=getchar();int len=0;
+		while(ch==' '||ch=='\n'||ch=='\r') ch=getchar();
+		while(ch!=' '&&ch!='\n'&&ch!=EOF&&ch!='\r') s[len++]=ch,ch=getchar();
+		s[len]='\0';return len;
+	}template<class T>
+	T readd(T&x){
+		x=0;bool f=false;char ch=getchar();
+		while(!isdigit(ch)) f|=!(ch^'-'),ch=getchar();
+		while(isdigit(ch)) x=x*10+(ch&0xF),ch=getchar();
+		if(ch=='.'){ch=getchar();T d=1;while(isdigit(ch)) d*=0.1,x+=d*(ch&0xF),ch=getchar();}
+		x=(f?-x:x);return x;
+	}template<class T>
+	void write(T x,char ch=' '){
+		if(x<0) putchar('-'),x=-x;
+		char tmp[41];int cnt=0;
+		while(x>9) tmp[cnt++]=x%10+'0',x/=10;tmp[cnt++]=x+'0';
+		while(cnt) putchar(tmp[--cnt]);putchar(ch);
+	}template<class T>
+	void writes(T x,int l=0,int r=-1){
+		if(~r){for(int i=l;i<=r;i++) putchar(x[i]);}
+		else{for(int i=l;x[i];i++) putchar(x[i]);}
+	}template<class T>
+	void writed(T x,int p=6,char ch=' '){
+		if(x<0) putchar('-'),x=-x;
+		T d=0.5;for(int i=0;i<p;i++) d*=0.1;x+=d;
+		i128 g=(i128)(x);p?write(g,'.'):write(g,ch);
+		if(p){T f=x-g;for(int i=0,d;i<p;i++) f*=10,d=(int)(f),putchar(d+'0'),f-=d;putchar(ch);}
+	}
+}
+using namespace FastIO;
+void freop(){freopen(".in","r",stdin);freopen(".out","w",stdout);}
+ll qpow(ll a,ll b,ll mod=MOD){ll res=1;while(b){if(b&1)res=res*a%mod;a=a*a%mod;b>>=1;}return res;}
+ll qmul(ll a,ll b,ll mod=MOD){ll res=0;while(b){if(b&1)res=(res+a)%mod;a=(a+a)%mod;b>>=1;}return res;}
+ll range_sum(const vector<ll>&pre,int l,int r){return pre[r+1]-pre[l];}
+vector<int>linear_sieve(int n){vector<int>primes;vector<bool>is_prime(n+1,true);for(int i=2;i<=n;i++){if(is_prime[i])primes.push_back(i);for(int p:primes){if(i*p>n)break;is_prime[i*p]=false;if(i%p==0)break;}}return primes;}
+void counting_sort(vector<int>&arr){if(arr.empty())return;int max_val=*max_element(arr.begin(),arr.end());int min_val=*min_element(arr.begin(),arr.end());long long range=(long long)max_val-min_val+1;if(range>10000000){sort(arr.begin(),arr.end());return;}if(range*sizeof(int)>256*1024*1024){sort(arr.begin(),arr.end());return;}vector<int>count(range,0);vector<int>output(arr.size());for(int x:arr){count[x-min_val]++;}for(int i=1;i<range;i++){count[i]+=count[i-1];}for(int i=arr.size()-1;i>=0;i--){int pos=arr[i]-min_val;output[count[pos]-1]=arr[i];count[pos]--;}arr=output;}
+void LL_counting_sort(vector<long long>&arr){if(arr.empty())return;long long max_val=*max_element(arr.begin(),arr.end());long long min_val=*min_element(arr.begin(),arr.end());long long range=max_val-min_val+1;if(range>10000000){sort(arr.begin(),arr.end());return;}if(range*sizeof(long long)>256*1024*1024){sort(arr.begin(),arr.end());return;}vector<long long>count(range,0);vector<long long>output(arr.size());for(long long x:arr){count[x-min_val]++;}for(long long i=1;i<range;i++){count[i]+=count[i-1];}for(long long i=arr.size()-1;i>=0;i--){long long pos=arr[i]-min_val;output[count[pos]-1]=arr[i];count[pos]--;}arr=output;}
 
-You can contact me through QQ, Twitter, or email
+void solve(){
 
-QQ:3506561279
+}
+int main()
+{
+   	solve();
+	flush();
+    AC;
+}
+```
 
-E-mail:3506561279@qq.com
+如果你喜欢打`CF`或`AT`
 
-E-mail2:valerain-ark@outlook.com
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+using ll=long long;
+void solve(){
+	
+}
+int main()
+{
+   	solve();
+    return 0;
+}
 
-E-mail3:gitvalerain@gmail.com
-
-
-My X:@GitvAlerain
-
-My youtube:@GitvAlerain
-
-# 😎Sponsored me
-
-爱发电: afdian.net/a/valerain
-
-<p align="center">
-     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
+```
